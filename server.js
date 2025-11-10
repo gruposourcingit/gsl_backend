@@ -17,7 +17,7 @@ app.use(express.json());
 const allowedOrigins = [
   'http://localhost:5173',  // local dev frontend
   'https://grupo-sourcin-ltd.onrender.com', // your deployed frontend
-  'https://www.gruposourcing.com/'
+  'https://www.gruposourcing.com'
 ];
 
 app.use(cors({
